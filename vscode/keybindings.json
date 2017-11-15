@@ -1,0 +1,14 @@
+[
+	{
+		"key": "alt+l",
+		"command": "-lovelauncher.launch"
+	},
+	{
+		"key": "cmd+r",
+		"command": "LOVE.launch"
+	},
+	{
+		"key": "alt+l",
+		"command": "-LOVE.launch"
+	}
+]

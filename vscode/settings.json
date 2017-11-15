@@ -1,0 +1,50 @@
+{
+  /* ====== Editor Configuration ====== */
+  "explorer.openEditors.visible": 0,
+  "files.insertFinalNewline": true,
+  "extensions.autoUpdate": true,
+  "editor.insertSpaces": false,
+  "git.autofetch": false,
+
+  /* ====== Linters ====== */
+  // Javascript
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.run": "onSave",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+  "vetur.validation.template": true,
+  // Python
+  "python.linting.pylintEnabled": false,
+
+  /* ====== Editor Styling ====== */
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 4,
+  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+  "workbench.colorTheme": "Ayu Dark",
+  "workbench.iconTheme": "ayu",
+  "editor.cursorStyle": "line",
+  "editor.minimap.enabled": false,
+  "vscode_custom_css.imports": [
+    "/Volumes/Macintosh HD/Users/matan/.vscodestyles.css"
+  ],
+
+  /* ====== Miscellaneous ====== */
+  // Emmet
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "files.associations": {
+    "*.snap": "html",
+    "*.vue": "vue"
+  }
+}
