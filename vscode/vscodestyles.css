@@ -1,0 +1,21 @@
+/*
+  Fat Cursor.
+  This overwrites the "underline thin" style since that is one that can be styled with CSS
+  So set your settings to:
+  "editor.cursorStyle": "underline-thin",
+*/
+.monaco-editor .cursors-layer.cursor-underline-thin-style > .cursor {
+  border-bottom-width: 0;
+  border-left-width: 3px;
+  border-left-style: solid;
+  background: transparent !important;
+  box-sizing: border-box;
+}
+
+.monaco-workbench > .editor > .content > .one-editor-silo {
+  border-top: 1px solid #15232d !important;
+}
+
+.one-editor-silo + .one-editor-silo {
+  border-left: 1px solid #15232d !important;
+}

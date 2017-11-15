@@ -9,5 +9,6 @@
 - link:
     ~/.gitconfig: gitconfig
     ~/.gitignore_global:
+    ~/.vscodestyles.css: vscode/vscodestyles.css
     ~/Library/Application Support/Code/User/keybindings.json: vscode/keybindings.json
     ~/Library/Application Support/Code/User/settings.json: vscode/settings.json
