@@ -1,0 +1,12 @@
+- clean: [ "~/.config/fisherman", "~/.config/fish" ]
+
+- link:
+   ~/.config/fish/alias.fish: fish/alias.fish
+   ~/.config/fish/autoenv.fish: fish/autoenv.fish
+   ~/.config/fish/path.fish: fish/path.fish
+   ~/.config/fish/config.fish: fish/config.fish
+   ~/.config/fish/functions/fisher.fish: fish/fisher.fish
+
+- shell:
+   - ["fish -c 'fisher'", "Installing fisher plugins"]
+   - ["fish -c 'fisher up'", "Updating fisher plugins"]
