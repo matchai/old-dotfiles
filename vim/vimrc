@@ -14,6 +14,7 @@ call minpac#add('scrooloose/nerdtree')
 call minpac#add('ctrlpvim/ctrlp.vim')
 call minpac#add('tpope/vim-surround')
 call minpac#add('tpope/vim-unimpaired')
+call minpac#add('tpope/vim-sleuth')
 
 " Install Themes
 " call minpac#add('rakr/vim-one')
