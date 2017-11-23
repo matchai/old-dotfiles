@@ -1,0 +1,6 @@
+- shell:
+   - ["/usr/bin/ruby -e \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)\"", "Install Homebrew"]
+   - ["brew bundle --file=~/.dotfiles/Brewfile", "Installing brew and cask packages"]
+   - ["brew update", "Update brew taps"]
+   - ["brew upgrade", "Upgrade brew and cask packages"]
+   - ["brew cleanup", "Clean up old brew packages"]

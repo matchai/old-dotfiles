@@ -2,6 +2,9 @@
     link:
       create: true
       relink: true
+      
+    shell:
+      stdout: true
 
 - shell:
   - ["git submodule update --init --recursive", "Installing submodules"]

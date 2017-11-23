@@ -1,0 +1,32 @@
+# Taps
+tap "homebrew/core"
+tap "homebrew/bundle"
+tap "homebrew/services"
+tap "caskroom/fonts"
+tap "caskroom/cask"
+
+# Replace GNU tools
+brew "git"
+brew "zsh"
+
+# Personal packages
+brew "awscli"
+brew "curl"
+brew "exa"
+brew "fish"
+brew "httpie"
+brew "hub"
+brew "neovim"
+brew "nvm"
+brew "the_silver_searcher"
+brew "tldr"
+brew "tmux"
+brew "yarn"
+cask "1password"
+cask "alfred"
+cask "bartender"
+cask "google-chrome"
+cask "iina"
+cask "slack"
+cask "spotify"
+cask "caskroom/fonts/font-fira-code"
