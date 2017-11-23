@@ -1,3 +1,9 @@
+- clean: [ "~/.vimrc", "~/.config/nvim" ]
+
 - link:
    ~/.vimrc: vim/vimrc
    ~/.config/nvim/init.vim: vim/init.vim
+
+- shell:
+   - ["vim -c 'minpac#clean()' -c 'q'", "Update vim packages"]
+   - ["vim -c 'minpac#update()' -c 'q'", "Update vim packages"]
