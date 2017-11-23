@@ -15,6 +15,10 @@ abbr -a gcm git commit -m
 abbr -a gp git push
 abbr -a gl git l
 
+# dotbot
+alias db="git -C ~/.dotfiles"
+
 # misc
 alias mkdir="mkdir -p"
 alias vim="nvim"
+alias c="pygmentize -g"
