@@ -1,3 +1,8 @@
+# dotbot
+function db
+    git -C ~/.dotfiles $argv
+end
+
 # cheat sheet
 function ch
 	if [ (count $argv) -gt 0 ]

@@ -13,6 +13,7 @@ abbr -a ga git add
 abbr -a gc git commit
 abbr -a gcm git commit -m
 abbr -a gp git push
+abbr -a gl git l
 
 # misc
 alias mkdir="mkdir -p"
