@@ -1,7 +1,7 @@
 Dotfiles
 ========
 
-After cloning this repo, run `install` to automatically set up the development
+After cloning this repo, run `./install-profile all` to automatically set up the development
 environment. Note that the install script is idempotent: it can safely be run
 multiple times.
 
