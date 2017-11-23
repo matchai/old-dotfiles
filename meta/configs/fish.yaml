@@ -1,12 +1,19 @@
 - clean: [ "~/.config/fisherman", "~/.config/fish" ]
 
 - link:
+   ~/.config/omf/bundle: fish/bundle
+   ~/.config/omf/channel: fish/channel
+   ~/.config/omf/theme: fish/theme
    ~/.config/fish/alias.fish: fish/alias.fish
    ~/.config/fish/autoenv.fish: fish/autoenv.fish
-   ~/.config/fish/path.fish: fish/path.fish
+   ~/.config/fish/paths.fish: fish/paths.fish
    ~/.config/fish/config.fish: fish/config.fish
+   ~/.config/fish/functions.fish: fish/functions.fish
    ~/.config/fish/functions/fisher.fish: fish/fisher.fish
 
 - shell:
+   - ["curl -L https://get.oh-my.fish | fish install --noninteractive", "Installing oh-my-fish"]
+   - ["fish -c 'omf i'", "Installing oh-my-fish plugins"]
+   - ["fish -c 'omf u'", "Updating oh-my-fish plugins"]
    - ["fish -c 'fisher'", "Installing fisher plugins"]
    - ["fish -c 'fisher up'", "Updating fisher plugins"]
