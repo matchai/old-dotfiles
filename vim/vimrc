@@ -1,0 +1,75 @@
+" Don't try to be vi compatible
+set nocompatible
+
+" Helps force plugins to load correctly when it is turned back on below
+filetype off 
+
+""" Load Plugins
+" Load minpac as a package manager
+packadd minpac
+call minpac#init()
+
+" Install Plugins
+call minpac#add('scrooloose/nerdtree')
+call minpac#add('ctrlpvim/ctrlp.vim')
+call minpac#add('tpope/vim-surround')
+call minpac#add('tpope/vim-unimpaired')
+
+" Install Themes
+" call minpac#add('rakr/vim-one')
+
+" Install minpac
+call minpac#add('k-takata/minpac', {'type': 'opt'})
+
+""" Plugin Customization
+" CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+
+" Create commands for minpac
+command! PackUpdate call minpac#update()
+command! PackClean call minpac#clean()
+
+" Turn on syntax highlighting
+syntax on
+
+" For plugins to load correctly
+filetype plugin indent on
+
+" Set encoding
+set encoding=utf-8
+
+" Make backspace able to delete line breaks
+set backspace=indent,eol,start
+
+""" Theme Customization
+" set termguicolors
+" set background=dark
+" let g:one_allow_italics = 1
+" colorscheme one
+" call one#highlight('vimLineComment', 'cccccc', '', 'none')
+
+""" UI Config
+" Show line numbers
+set number
+
+" Show the last entered command
+set showcmd
+
+" Show file stats
+set ruler
+
+" Blink cursor instead of beeping
+set visualbell
+
+""" Spaces and tabs
+" Number of visual spaces per tab
+set tabstop=4
+
+" Number of spaces in a tab
+set softtabstop=4
+
+" Turn tabs into spaces
+set expandtab
+

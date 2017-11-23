@@ -1,0 +1,3 @@
+- link:
+   ~/.vimrc: vim/vimrc
+   ~/.config/nvim/init.vim: vim/init.vim
