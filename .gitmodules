@@ -2,3 +2,6 @@
 	path = meta/dotbot
 	url = https://github.com/anishathalye/dotbot
 	branch = master
+[submodule "vim/minpac"]
+	path = vim/minpac
+	url = https://github.com/k-takata/minpac.git
