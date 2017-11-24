@@ -15,7 +15,7 @@
    ~/.config/fish/paths.fish: fish/paths.fish
    ~/.config/fish/config.fish: fish/config.fish
    ~/.config/fish/functions.fish: fish/functions.fish
-   ~/.config/fish/functions/fisher.fish: fish/fisher.fish
+   ~/.config/fish/functions/fisher.fish: fish/fisherman/fisher.fish
    ~/.config/fish/fishfile: fish/fishfile
 
 - shell:

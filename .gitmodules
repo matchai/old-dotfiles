@@ -5,3 +5,6 @@
 [submodule "vim/minpac"]
 	path = vim/minpac
 	url = https://github.com/k-takata/minpac.git
+[submodule "fish/fisherman"]
+	path = fish/fisherman
+	url = git@github.com:fisherman/fisherman.git
