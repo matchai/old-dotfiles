@@ -1,0 +1,4 @@
+- clean: [ "~/.config/karabiner" ]
+
+- link:
+   ~/.config/karabiner/karabiner.json: karabiner.json
