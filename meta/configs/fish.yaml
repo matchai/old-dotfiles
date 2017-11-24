@@ -7,7 +7,6 @@
       relink: true
 
 - link:
-   ~/.config/omf/bundle: fish/bundle
    ~/.config/omf/channel: fish/channel
    ~/.config/omf/theme: fish/theme
    ~/.config/fish/alias.fish: fish/alias.fish
