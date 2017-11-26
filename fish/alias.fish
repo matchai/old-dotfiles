@@ -17,6 +17,13 @@ abbr -a gd git diff
 
 # dotbot
 alias db="git -C ~/.dotfiles"
+abbr -a dbs db status -s -b
+abbr -a dba db add
+abbr -a dbc db commit
+abbr -a dbcm db commit -m
+abbr -a dbp db push
+abbr -a dbl db l
+abbr -a dbd db diff
 
 # misc
 alias mkdir="mkdir -p"      # Make folder creation recursive
