@@ -15,7 +15,9 @@ call minpac#add('ctrlpvim/ctrlp.vim')
 call minpac#add('tpope/vim-surround')
 call minpac#add('tpope/vim-unimpaired')
 call minpac#add('tpope/vim-sleuth')
-call minpac#add('pangloss/vim-javascript')
+
+" Install Language Syntax
+call minpac#add('sheerun/vim-polyglot')
 
 " Install Themes
 call minpac#add('rakr/vim-one')
