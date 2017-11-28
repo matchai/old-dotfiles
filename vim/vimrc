@@ -78,3 +78,6 @@ set softtabstop=4
 " Turn tabs into spaces
 set expandtab
 
+""" Keybindings
+" Delete with <C-D>
+imap <C-D> <C-O>x
