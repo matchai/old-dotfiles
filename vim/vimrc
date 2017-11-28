@@ -11,11 +11,15 @@ call minpac#init()
 
 " Install Plugins
 call minpac#add('scrooloose/nerdtree')
+call minpac#add('scrooloose/nerdcommenter')
 call minpac#add('ctrlpvim/ctrlp.vim')
 call minpac#add('tpope/vim-surround')
 call minpac#add('tpope/vim-unimpaired')
 call minpac#add('tpope/vim-sleuth')
-call minpac#add('pangloss/vim-javascript')
+call minpac#add('wakatime/vim-wakatime')
+
+" Install Language Syntax
+call minpac#add('sheerun/vim-polyglot')
 
 " Install Themes
 call minpac#add('rakr/vim-one')
@@ -53,7 +57,6 @@ try
     colorscheme one
 catch
 endtry
-" call one#highlight('vimLineComment', 'cccccc', '', 'none')
 
 """ UI Config
 " Show line numbers
@@ -68,6 +71,13 @@ set ruler
 " Blink cursor instead of beeping
 set visualbell
 
+" Redraw only when necessary
+set lazyredraw
+
+" Highlight matching parentheses
+set showmatch
+
+
 """ Spaces and tabs
 " Number of visual spaces per tab
 set tabstop=4
@@ -81,3 +91,11 @@ set expandtab
 """ Keybindings
 " Delete with <C-D>
 imap <C-D> <C-O>x
+
+" Set the leader binding
+let mapleader=","
+
+" Edit and source vimrc
+nnoremap <leader>ev :vsp $MYVIMRC<CR>
+nnoremap <leader>sv :source $MYVIMRC<CR>
+

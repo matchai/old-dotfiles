@@ -24,18 +24,22 @@
   "python.linting.pylintEnabled": false,
 
   /* ====== Editor Styling ====== */
+  // Editor
   "editor.renderWhitespace": "boundary",
   "editor.tabSize": 4,
   "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 12,
+  "editor.fontSize": 14,
   "editor.fontLigatures": true,
-  "workbench.colorTheme": "Ayu Dark",
-  "workbench.iconTheme": "ayu",
   "editor.cursorStyle": "line",
   "editor.minimap.enabled": false,
   "vscode_custom_css.imports": [
     "/Volumes/Macintosh HD/Users/matan/.vscodestyles.css"
   ],
+  // Workbench
+  "workbench.colorTheme": "Ayu Dark",
+  "workbench.iconTheme": "ayu",
+  // Terminal
+  "terminal.integrated.fontSize": 13,
 
   /* ====== Miscellaneous ====== */
   // Emmet
@@ -46,5 +50,19 @@
   "files.associations": {
     "*.snap": "html",
     "*.vue": "vue"
-  }
+  },
+  "materialTheme.cache.workbench.settings": {
+    "themeColours": "Darker"
+  },
+  "sync.gist": "a3fce6bc0f2a1015ec892c400eebeeb9",
+  "sync.lastUpload": "2017-11-27T23:40:36.131Z",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
+  "sync.anonymousGist": false,
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false
 }
