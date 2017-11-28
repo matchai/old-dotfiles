@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [ -x "`command -v curl`" ]; then
   CMD="curl -#L"
