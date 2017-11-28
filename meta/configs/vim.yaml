@@ -2,7 +2,6 @@
 
 - link:
    ~/.vim/pack/minpac/opt/minpac: vim/minpac
-   ~/.vim/ftplugin: vim/ftplugin
    ~/.vimrc: vim/vimrc
    ~/.config/nvim/init.vim: vim/init.vim
 
