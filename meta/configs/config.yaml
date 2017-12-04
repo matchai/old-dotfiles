@@ -1,0 +1,5 @@
+- clean: [ "~/.config/karabiner" ]
+
+- link:
+   ~/.config/karabiner/karabiner.json: config/karabiner.json
+   ~/.hushlogin: config/hushlogin
