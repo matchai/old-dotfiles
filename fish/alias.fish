@@ -29,6 +29,7 @@ abbr -a dbd db diff
 alias mkdir="mkdir -p"      # Make folder creation recursive
 alias cp="cp -r"            # Make all file copying recursive
 alias vim="nvim"            # Use Neovim instead of vim
+alias view="vim"            # Use vim config when using view
 alias c="pygmentize -g"     # Colored cat
 alias reload="exec fish"    # Reload fish configs
 
