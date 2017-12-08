@@ -14,6 +14,7 @@
    ~/.config/fish/functions.fish: fish/functions.fish
    ~/.config/fish/functions/fisher.fish: fish/fisherman/fisher.fish
    ~/.config/fish/functions/tabcolor.fish: fish/tabcolor.fish
+   ~/.config/fish/functions/ch.fish: fish/ch.fish
    ~/.config/fish/fishfile: fish/fishfile
 
 - shell:
