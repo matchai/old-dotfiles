@@ -98,7 +98,10 @@ imap <C-D> <C-O>x
 " Set the leader binding
 let mapleader=","
 
+" Clear search highlighting by double-pressing esc
+nnoremap <esc><esc> :noh<return>
+
 " Edit and source vimrc
 nnoremap <leader>ev :vsp $MYVIMRC<CR>
-nnoremap <leader>sv :source $MYVIMRC<CR>
+nnoremap <leader>sv :source $MYVIMRC<C>
 
