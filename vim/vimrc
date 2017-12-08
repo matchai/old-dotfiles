@@ -40,6 +40,9 @@ command! PackClean call minpac#clean()
 " Turn on syntax highlighting
 syntax on
 
+" Add default syntax for filetypes
+au BufReadPost Jenkinsfile set syntax=groovy
+
 " For plugins to load correctly
 filetype plugin indent on
 
