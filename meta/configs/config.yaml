@@ -1,6 +1,7 @@
-- clean: [ "~/.config/karabiner" ]
+- clean: [ "~", "~/.config/karabiner", "~/.ssh", "~/Library/Preferences" ]
 
 - link:
    ~/.config/karabiner/karabiner.json: config/karabiner.json
    ~/.hushlogin: config/hushlogin
    ~/.ssh/config: config/ssh.config
+   ~/Library/Preferences/com.hegenberg.BetterSnapTool.plist: config/com.hegenberg.BetterSnapTool.plist
