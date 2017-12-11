@@ -15,6 +15,8 @@ abbr -a gp git push
 abbr -a gl git l
 abbr -a gd git diff
 abbr -a gds git diff --staged
+abbr -a gr git reset
+abbr -a gf git fetch
 
 # dotbot
 alias db="git -C ~/.dotfiles"
