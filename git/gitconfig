@@ -35,7 +35,8 @@
 	newHighlight = green bold 22
 [color "diff"]
 	frag = magenta bold
-	commit = 227 bold
 	old = red bold
 	new = green bold
 	whitespace = red reverse
+[fetch]
+	prune = true
