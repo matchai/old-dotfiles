@@ -14,6 +14,7 @@ abbr -a gcm git commit -m
 abbr -a gp git push
 abbr -a gl git l
 abbr -a gd git diff
+abbr -a gds git diff --staged
 
 # dotbot
 alias db="git -C ~/.dotfiles"

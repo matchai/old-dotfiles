@@ -12,6 +12,7 @@ brew "zsh"
 # Personal packages
 brew "awscli"
 brew "curl"
+brew "diff-so-fancy"
 brew "exa"
 brew "fish"
 brew "fzf"
