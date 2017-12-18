@@ -8,7 +8,6 @@
 
   /* ====== Linters ====== */
   // Javascript
-  "editor.formatOnSave": true,
   "eslint.autoFixOnSave": true,
   "eslint.run": "onSave",
   "eslint.validate": [
@@ -19,7 +18,6 @@
       "autoFix": true
     }
   ],
-  "vetur.validation.template": true,
   // Python
   "python.linting.pylintEnabled": false,
 
