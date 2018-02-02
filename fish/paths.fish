@@ -1,5 +1,5 @@
 # Configure Go
-if [ -e ~/dev/go ]
+if type -q go
   set -gx GOPATH ~/dev/go
   set -gx PATH $GOBIN $PATH
   set -gx GOBIN ~/dev/go/bin
@@ -8,6 +8,11 @@ if [ -e ~/dev/go ]
 end
 
 # Configure Rust
-if [ -e $HOME/.cargo ]
+if test -e ~/.cargo/bin
   set -gx PATH $HOME/.cargo/bin $PATH
+end
+
+# Configure Brew
+if type -q brew
+  set -gx PATH /usr/local/sbin $PATH 
 end
