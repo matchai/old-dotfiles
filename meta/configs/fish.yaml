@@ -11,7 +11,6 @@
    ~/.config/fish/autoenv.fish: fish/autoenv.fish
    ~/.config/fish/paths.fish: fish/paths.fish
    ~/.config/fish/config.fish: fish/config.fish
-   ~/.config/fish/functions.fish: fish/functions.fish
    ~/.config/fish/functions/fisher.fish: fish/fisherman/fisher.fish
    ~/.config/fish/functions/tabcolor.fish: fish/tabcolor.fish
    ~/.config/fish/functions/ch.fish: fish/ch.fish
