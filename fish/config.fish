@@ -1,5 +1,8 @@
 source ~/.config/fish/alias.fish
 source ~/.config/fish/paths.fish
 
+# Spacefish config
+set -g SPACEFISH_CHAR_SYMBOL ❯
+
 # Use legacy fzf keybindings
-set -U FZF_LEGACY_KEYBINDINGS 1
+set -g FZF_LEGACY_KEYBINDINGS 1
