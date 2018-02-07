@@ -5,8 +5,8 @@
   "extensions.autoUpdate": true,
   "editor.insertSpaces": false,
   "git.autofetch": false,
-
   /* ====== Linters ====== */
+  // "editor.formatOnSave": true,
   // Javascript
   "eslint.autoFixOnSave": true,
   "eslint.run": "onSave",
@@ -19,8 +19,9 @@
     }
   ],
   // Python
+  "python.formatting.provider": "autopep8",
   "python.linting.pylintEnabled": false,
-
+  "python.linting.pep8Enabled": true,
   /* ====== Editor Styling ====== */
   // Editor
   "editor.renderWhitespace": "boundary",
@@ -38,7 +39,6 @@
   "workbench.iconTheme": "ayu",
   // Terminal
   "terminal.integrated.fontSize": 13,
-
   /* ====== Miscellaneous ====== */
   // Emmet
   "emmet.syntaxProfiles": {
@@ -62,5 +62,6 @@
   "sync.host": "",
   "sync.pathPrefix": "",
   "sync.quietSync": false,
-  "sync.askGistName": false
+  "sync.askGistName": false,
+  "window.zoomLevel": 0
 }
