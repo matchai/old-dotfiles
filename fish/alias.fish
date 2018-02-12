@@ -6,7 +6,6 @@ alias ld="ls -ld */"
 # git
 alias git="hub"
 alias g="git"
-
 abbr -a gs  git status -s -b
 abbr -a ga  git add
 abbr -a gc  git commit
@@ -39,4 +38,5 @@ alias vim="nvim"            # Use Neovim instead of vim
 alias view="vim"            # Use vim config when using view
 alias c="pygmentize -g"     # Colored cat
 alias reload="exec fish"    # Reload fish configs
+abbr -a pjo pj open         # Open project in editor with pj
 
