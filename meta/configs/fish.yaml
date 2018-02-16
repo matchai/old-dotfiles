@@ -17,5 +17,4 @@
    ~/.config/fish/fishfile: fish/fishfile
 
 - shell:
-   - ["fish -c 'fisher'", "Installing fisher plugins"]
-   - ["fish -c 'fisher up'", "Updating fisher plugins"]
+   - ["fish -c 'fisher; and fisher up'", "Install and update fisher plugins"]
