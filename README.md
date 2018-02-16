@@ -1,14 +1,23 @@
 Dotfiles
 ========
 
-After cloning this repo, run `./install-profile all` to automatically set up the development
-environment. Note that the install script is idempotent: it can safely be run
-multiple times.
+The install script is idempotent: it can safely be run multiple times.
 
 Dotfiles uses [Dotbot][dotbot] for installation.
 
-License
--------
+## Install
+
+On a sparkling fresh installation of macOS:
+
+    sudo softwareupdate -i -a
+    xcode-select --install
+
+Install the dotfiles with Git:
+
+    git clone https://github.com/matchai/dotfiles.git ~/.dotfiles
+    ~/.dotfiles/install-profile all
+
+## License
 
 Copyright (c) Matan Kushner. Released under the MIT License. See
 [LICENSE.md][license] for details.
