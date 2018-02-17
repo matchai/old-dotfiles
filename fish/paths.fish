@@ -13,6 +13,6 @@ if test -e ~/.cargo/bin
 end
 
 # Configure Brew
-if type -q brew
+if test -e /usr/local/sbin
   set -gx PATH /usr/local/sbin $PATH 
 end
