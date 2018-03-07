@@ -1,7 +1,16 @@
-# directories
+# ls aliases
 alias ls="exa"
-alias l="exa -la"
-alias ld="ls -ld */"
+alias l="ls -F"
+alias l="ls -laF"
+
+# directory shortcuts
+alias dl="cd ~/Downloads"
+alias dt="cd ~/Desktop"
+alias dv="cd ~/dev"
+
+# command shortcuts
+alias o="open"
+alias oo="open ."
 
 # git
 alias git="hub"
