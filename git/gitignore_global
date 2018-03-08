@@ -30,3 +30,7 @@ Desktop.ini
 .fseventsd
 .TemporaryItems
 .VolumeIcon.icns
+
+# Custom fish env files
+.fish.env
+.fish.out
