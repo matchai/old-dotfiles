@@ -7,6 +7,7 @@ set -g EDITOR code
 
 # Spacefish config
 set -g SPACEFISH_CHAR_SYMBOL ❯
+set -g SPACEFISH_EXEC_TIME_ELAPSED 2
 
 # Configure pj
 set -g PROJECT_PATHS ~/dev
