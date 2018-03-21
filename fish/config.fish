@@ -1,6 +1,7 @@
 source ~/.config/fish/alias.fish
 source ~/.config/fish/paths.fish
 source ~/.config/fish/autoenv.fish
+[ -e ~/.config/fish/secrets.fish ]; and source ~/.config/fish/secrets.fish
 
 # Set editor
 set -g EDITOR code
