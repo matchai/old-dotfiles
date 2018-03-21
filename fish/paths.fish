@@ -16,3 +16,8 @@ end
 if test -e /usr/local/sbin
   set -gx PATH /usr/local/sbin $PATH 
 end
+
+# Configure Python
+if test -e ~/Library/Python/2.7/bin
+  set -gx PATH ~/Library/Python/2.7/bin $PATH
+end
