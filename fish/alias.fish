@@ -1,7 +1,6 @@
 # ls aliases
-alias ls="exa"
-alias l="ls -F"
-alias l="ls -laF"
+alias ls="exa -F"
+alias l="exa -laF"
 
 # directory shortcuts
 alias dl="cd ~/Downloads"
