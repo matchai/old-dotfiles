@@ -5,6 +5,9 @@ The install script is idempotent: it can safely be run multiple times.
 
 Dotfiles uses [Dotbot][dotbot] for installation.
 
+## TODO:
+Migrate from dotbot to yadm for encrypted files and trimming away symlinks
+
 ## Install
 
 On a sparkling fresh installation of macOS:
