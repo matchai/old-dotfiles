@@ -5,8 +5,8 @@
   "extensions.autoUpdate": true,
   "editor.insertSpaces": false,
   "git.autofetch": false,
+
   /* ====== Linters ====== */
-  // "editor.formatOnSave": true,
   // Javascript
   "eslint.autoFixOnSave": true,
   "eslint.run": "onSave",
@@ -22,23 +22,27 @@
   "python.formatting.provider": "autopep8",
   "python.linting.pylintEnabled": false,
   "python.linting.pep8Enabled": true,
+
   /* ====== Editor Styling ====== */
   // Editor
-  "editor.renderWhitespace": "boundary",
-  "editor.tabSize": 4,
-  "editor.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontSize": 14,
+  "editor.fontFamily": "Operator Mono, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 25,
   "editor.fontLigatures": true,
+  "editor.renderWhitespace": "boundary",
   "editor.cursorStyle": "line",
+  "editor.cursorWidth": 3,
   "editor.minimap.enabled": false,
-  "vscode_custom_css.imports": [
-    "/Volumes/Macintosh HD/Users/matan/.vscodestyles.css"
-  ],
   // Workbench
-  "workbench.colorTheme": "Ayu Dark",
-  "workbench.iconTheme": "ayu",
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "workbench.iconTheme": "eq-material-theme-icons",
   // Terminal
   "terminal.integrated.fontSize": 13,
+  // Custom CSS
+  "vscode_custom_css.imports": [
+    "file:///Users/matan/.vscode/style.css"
+  ],
+
   /* ====== Miscellaneous ====== */
   // Emmet
   "emmet.syntaxProfiles": {
@@ -48,20 +52,5 @@
   "files.associations": {
     "*.snap": "html",
     "*.vue": "vue"
-  },
-  "materialTheme.cache.workbench.settings": {
-    "themeColours": "Darker"
-  },
-  "sync.gist": "a3fce6bc0f2a1015ec892c400eebeeb9",
-  "sync.lastUpload": "2017-11-27T23:40:36.131Z",
-  "sync.autoDownload": false,
-  "sync.autoUpload": false,
-  "sync.lastDownload": "",
-  "sync.forceDownload": false,
-  "sync.anonymousGist": false,
-  "sync.host": "",
-  "sync.pathPrefix": "",
-  "sync.quietSync": false,
-  "sync.askGistName": false,
-  "window.zoomLevel": 0
+  }
 }
