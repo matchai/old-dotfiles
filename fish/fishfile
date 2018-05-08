@@ -1,6 +1,7 @@
 fisherman/await
 edc/bass
 fisherman/done
+fisherman/fishtape
 fisherman/fzf
 fisherman/get
 fisherman/getopts
@@ -9,5 +10,4 @@ fisherman/last_job_id
 fisherman/nvm
 oh-my-fish/plugin-osx
 oh-my-fish/plugin-pj
-matchai/spacefish
 fisherman/z
